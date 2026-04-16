@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.streamlit/
+.venv/
+.vscode/
+*.pyc
+pytest-cache-files-*/
+outputs/
+data/
