@@ -72,10 +72,11 @@ jupyter notebook notebooks/analysis.ipynb
 streamlit run app.py
 ```
 ## Output
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8172271-90a6-4f82-819c-db2ee24834d3" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4c43dd7-416d-4a7a-b304-dd24af312274" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/50845b27-35e8-458d-b584-117208022dc4" />
-
+<p align="center">
+<img width="48%" alt="image" src="https://github.com/user-attachments/assets/a8172271-90a6-4f82-819c-db2ee24834d3" />
+<img width="48%" alt="image" src="https://github.com/user-attachments/assets/c4c43dd7-416d-4a7a-b304-dd24af312274" />
+<img width="48%" alt="image" src="https://github.com/user-attachments/assets/50845b27-35e8-458d-b584-117208022dc4" />
+</p>
 
 
 ## Methodology
