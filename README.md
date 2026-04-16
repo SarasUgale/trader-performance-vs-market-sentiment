@@ -1,8 +1,7 @@
 # Primetrade Sentiment vs Trader Performance
 
-This repo implements the Primetrade.ai Data Science Intern assignment: analyze how Bitcoin market sentiment relates to Hyperliquid trader behavior and performance, then convert the findings into actionable trading rules.
+This repo implements the Data Science Intern assignment: analyze how Bitcoin market sentiment relates to Hyperliquid trader behavior and performance, then convert the findings into actionable trading rules.
 
-The submission is notebook-first, with reusable Python modules underneath and a lightweight Streamlit dashboard for exploration.
 
 ## Executive Summary
 
@@ -72,6 +71,12 @@ jupyter notebook notebooks/analysis.ipynb
 ```bash
 streamlit run app.py
 ```
+## Output
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8172271-90a6-4f82-819c-db2ee24834d3" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4c43dd7-416d-4a7a-b304-dd24af312274" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/50845b27-35e8-458d-b584-117208022dc4" />
+
+
 
 ## Methodology
 
@@ -157,10 +162,4 @@ This is intentionally lightweight, but it shows that sentiment plus trader behav
 - Some `Direction` values are noisy, so the pipeline normalizes the common categories and safely handles rare residual labels.
 - The raw Unix timestamp field loses day-level precision because it is stored in scientific notation, so the project uses `Timestamp IST` for alignment and keeps the Unix field only as a quality check.
 
-## Testing
 
-```bash
-pytest
-```
-
-The test suite covers timestamp parsing, sentiment collapse, daily aggregation, and drawdown logic.
