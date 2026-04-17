@@ -1,4 +1,4 @@
-# Primetrade Sentiment vs Trader Performance
+# Market Sentiment vs Trader Performance
 
 This repo implements the Data Science Intern assignment: analyze how Bitcoin market sentiment relates to Hyperliquid trader behavior and performance, then convert the findings into actionable trading rules.
 
